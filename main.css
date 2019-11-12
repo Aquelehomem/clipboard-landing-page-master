@@ -1,0 +1,282 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,600&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.line-break {
+  width: 100%;
+  height: 0; }
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: 'Bai Jamjuree';
+  padding: 0;
+  background-image: url("images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+  @media screen and (min-width: 786px) {
+    body {
+      background-image: url("images/bg-header-desktop.png"); } }
+  body header {
+    padding: 123px 32px 66px 32px;
+    text-align: center;
+    line-height: 1.7; }
+    body header img {
+      margin: 0 0 73px 0; }
+    @media screen and (min-width: 786px) {
+      body header h1 {
+        font-size: 38px; } }
+    body header p {
+      max-width: 683px;
+      display: block;
+      margin: 0 auto;
+      font-size: 15px; }
+    body header .buttons {
+      width: 100%;
+      max-width: 475px;
+      margin: 52px auto 175px auto;
+      height: 55px; }
+      @media screen and (min-width: 543px) {
+        body header .buttons {
+          display: flex;
+          justify-content: space-between; } }
+      body header .buttons button {
+        width: 100%;
+        height: 55px;
+        border-radius: 30px;
+        font-size: 15px;
+        max-width: 229px; }
+        @media screen and (min-width: 786px) {
+          body header .buttons button {
+            font-size: 16px; } }
+      body header .buttons button:nth-of-type(1) {
+        margin: 0 0 24px 0; }
+    @media screen and (min-width: 786px) {
+      body header h2 {
+        font-size: 31px; } }
+  body main {
+    max-width: 1440px;
+    margin: 0 auto; }
+    body main .firstSection {
+      padding: 0px 32px 0px 32px;
+      text-align: center; }
+      @media screen and (min-width: 836px) {
+        body main .firstSection {
+          display: flex; } }
+      body main .firstSection img {
+        width: 100%;
+        max-width: 746px;
+        margin-bottom: 40px; }
+        @media screen and (min-width: 836px) {
+          body main .firstSection img {
+            display: block;
+            margin-left: -65px;
+            margin-right: 70px;
+            align-self: center;
+            margin-bottom: 0px; } }
+      body main .firstSection div.quickSearch {
+        line-height: 1.7; }
+        @media screen and (min-width: 836px) {
+          body main .firstSection div.quickSearch {
+            width: 50%;
+            max-width: 335px;
+            text-align: left;
+            padding: 71px 0 0 0; } }
+        body main .firstSection div.quickSearch p {
+          font-size: 15px;
+          margin: 0 0 30px 0; }
+    body main .secondSection {
+      text-align: center;
+      padding: 196px 32px 143px 32px;
+      line-height: 1.7; }
+      @media screen and (min-width: 836px) {
+        body main .secondSection {
+          padding-top: 156px;
+          padding-bottom: 179px; } }
+      body main .secondSection p {
+        display: block;
+        max-width: 674px;
+        margin: 0 auto 70px auto; }
+        @media screen and (min-width: 836px) {
+          body main .secondSection p {
+            margin: 0 auto 120px auto; } }
+      body main .secondSection img {
+        width: 100%;
+        max-width: 812px; }
+  body .thirdSection {
+    text-align: center;
+    padding: 0 32px 175px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between; }
+    @media screen and (min-width: 786px) {
+      body .thirdSection {
+        padding: 0 170px; } }
+    body .thirdSection h2 {
+      text-align: center;
+      display: block;
+      margin: 0 auto; }
+    body .thirdSection p {
+      display: block;
+      margin: 0 auto; }
+    body .thirdSection .div {
+      margin: 97px auto 0 auto;
+      max-width: 336px;
+      min-width: 300px;
+      background: pink;
+      text-align: center; }
+      body .thirdSection .div img {
+        margin: 0 0 46px 0; }
+      body .thirdSection .div h3 {
+        margin: 0 0 49px 0; }
+    body .thirdSection .logo {
+      margin: 135px auto 0 auto;
+      width: 145px;
+      text-align: center; }
+      @media screen and (min-width: 520px) {
+        body .thirdSection .logo {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap; } }
+      body .thirdSection .logo img {
+        margin: 0 0 67px 0;
+        align-self: center;
+        max-width: 165px;
+        width: 165px; }
+  body .lastSection {
+    background-color: red;
+    text-align: center;
+    padding: 0 32px 172px 32px; }
+    @media screen and (min-width: 786px) {
+      body .lastSection {
+        padding-bottom: 152px; } }
+    body .lastSection h2 {
+      margin: 0 0 34px 0; }
+    body .lastSection p {
+      margin: 0 0 50px 0; }
+    body .lastSection .buttons {
+      width: 100%;
+      max-width: 475px;
+      margin: 0px auto 0px auto;
+      height: 55px; }
+      @media screen and (min-width: 543px) {
+        body .lastSection .buttons {
+          display: flex;
+          justify-content: space-between; } }
+      body .lastSection .buttons button {
+        width: 100%;
+        height: 55px;
+        border-radius: 30px;
+        font-size: 15px;
+        max-width: 229px; }
+        @media screen and (min-width: 786px) {
+          body .lastSection .buttons button {
+            font-size: 16px; } }
+      body .lastSection .buttons button:nth-of-type(1) {
+        margin: 0 0 24px 0; }
+
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 54px 0 50px 0; }
+  @media screen and (min-width: 846px) {
+    footer {
+      text-align: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 54px 165px 54px 165px; } }
+  footer img {
+    width: 56px; }
+    @media screen and (min-width: 846px) {
+      footer img {
+        margin: 0 auto auto 0; } }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    margin: 49px auto 0 auto; }
+    @media screen and (min-width: 846px) {
+      footer ul {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(auto, 100px));
+        grid-column-gap: 40px;
+        grid-row: 28px;
+        margin: 0; } }
+    footer ul li {
+      margin: 0 0 40px 0; }
+      @media screen and (min-width: 846px) {
+        footer ul li {
+          margin: 0;
+          width: 118px;
+          text-align: left;
+          background: red; } }
+    @media screen and (min-width: 846px) {
+      footer ul li:nth-of-type(3) {
+        background: orange;
+        grid-column: 2/3;
+        grid-row: 1/2; } }
+    @media screen and (min-width: 846px) {
+      footer ul li:nth-of-type(5) {
+        background: purple;
+        grid-column: 3/4;
+        grid-row: 1/2; } }
+  footer div {
+    width: 153px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: red; }
+    @media screen and (min-width: 846px) {
+      footer div {
+        margin: 0 0 0 auto;
+        width: 119px; } }
+
+/*# sourceMappingURL=main.css.map */

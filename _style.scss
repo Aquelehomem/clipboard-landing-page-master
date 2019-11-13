@@ -18,6 +18,9 @@ body{
 			margin:0 0 73px 0;
 		}
 		h1{
+			font-weight: 600;
+			font-size:30px;
+			color:$darkGrayishBlue;
 			@media screen and (min-width:786px){
 				font-size:38px;
 			}
@@ -26,7 +29,8 @@ body{
 			max-width:683px;
 			display:block;
 			margin: 0 auto;
-			font-size:15px;
+			font-size:18px;
+			color:$grayishBlue;
 		}
 		.buttons{
 			@media screen and (min-width:543px){
@@ -43,15 +47,27 @@ body{
 				border-radius: 30px;
 				font-size: 15px;
 				max-width: 229px;
+				cursor:pointer;
+				background:$lightBlue;
+				border:none;
+				border-bottom-style: solid;
+				border-color:#5161DA;
+				border-width: 3.5px;
+				color:white;
 				@media screen and (min-width:786px){
 					font-size:16px;
 				}
 			}
 			button:nth-of-type(1){
 				margin:0 0 24px 0;
+				background:$strongCyan;
+				border-color: #219F89;
 			}
 		}
 		h2{
+			font-weight: 600;
+			font-size:30px;
+			color:$darkGrayishBlue;
 			@media screen and (min-width:786px){
 				font-size:31px;
 			}
@@ -86,9 +102,15 @@ body{
 					text-align:left;
 					padding:71px 0 0 0;
 				}
+				h3{
+					font-weight: 600;
+					font-size:22px;
+					color:$darkGrayishBlue;
+				}
 				p{
 					font-size:15px;
 					margin:0 0 30px 0;
+					color:$grayishBlue;
 				}
 			}
 		}
@@ -100,10 +122,17 @@ body{
 				padding-top:156px;
 				padding-bottom: 179px;
 			}
+			h2{
+				font-weight: 600;
+				font-size:30px;
+				color:$darkGrayishBlue;
+			}
 			p{
 				display:block;
 				max-width: 674px;
 				margin:0 auto 70px auto;
+				font-size: 18px;
+				color:$grayishBlue;
 				@media screen and (min-width:836px){
 					margin:0 auto 120px auto;
 				}
@@ -120,6 +149,7 @@ body{
 		display: flex;
 		flex-wrap: wrap;
 		margin:0 auto;
+		line-height: 1.5;
 		@media screen and (min-width:786px){
 			padding:0 170px;
 		}
@@ -128,22 +158,29 @@ body{
 			text-align:center;
 			display:block;
 			margin:0 auto;
+			font-weight: 600;
+			font-size:28px;
+			color:$darkGrayishBlue;
 		}
 		p{
 			display:block;
 			margin:0 auto;
+			font-size:18px;
+			color:$grayishBlue;
 		}
 		.div{
 			margin:97px auto 0 auto;
 			max-width:336px;
 			min-width:300px;
-			background:pink;
 			text-align: center;
 			img{
-				margin:0 0 46px 0;
+				margin:0 0 20px 0;
 			}
 			h3{
-				margin:0 0 49px 0;
+				margin:0 0 20px 0;
+				font-weight: 600;
+				font-size:25px;
+				color:$darkGrayishBlue;
 			}
 		}
 		.logo{
@@ -165,17 +202,22 @@ body{
 		}
 	}
 	.lastSection{
-		background-color: red;
 		text-align: center;
 		padding:0 32px 172px 32px;
+		line-height: 1.5;
 		@media screen and (min-width:786px){
 			padding-bottom:152px;
 		}
 		h2{
 			margin:0 0 34px 0;
+			font-weight: 600;
+			font-size:25px;
+			color:$darkGrayishBlue;
 		}
 		p{
 			margin: 0 0 50px 0;
+			color:$grayishBlue;
+			font-size: 18px;
 		}
 		.buttons{
 			@media screen and (min-width:543px){
@@ -192,12 +234,21 @@ body{
 				border-radius: 30px;
 				font-size: 15px;
 				max-width: 229px;
+				cursor:pointer;
+				background:$lightBlue;
+				border:none;
+				border-bottom-style: solid;
+				border-color:#5161DA;
+				border-width: 3.5px;
+				color:white;
 				@media screen and (min-width:786px){
 					font-size:16px;
 				}
 			}
 			button:nth-of-type(1){
 				margin:0 0 24px 0;
+				background:$strongCyan;
+				border-color: #219F89;
 			}
 		}
 	}
@@ -228,29 +279,33 @@ footer{
 			display:grid;
 			grid-template-columns: repeat(3,minmax(auto,100px));
 			grid-column-gap:40px;
+			grid-row-gap:20px;
 			grid-row: 28px;
 			margin:0;
 		}
 		li{
 			margin:0 0 40px 0;
+			cursor: pointer;
+			color:$darkGrayishBlue;
+			font-weight: 300;
 			@media screen and (min-width:846px){
 			margin:0;
 			width:118px;
 			text-align: left;
-			background: red;
+			&:hover{
+				color:$strongCyan;
+			}
 		}
 
 		}
 		li:nth-of-type(3){
 			@media screen and (min-width:846px){
-				background:orange;
 				grid-column:2/3;
 				grid-row:1/2;
 			}
 		}
 		li:nth-of-type(5){
 			@media screen and (min-width:846px){
-				background:purple;
 				grid-column:3/4;
 				grid-row:1/2;
 			}
@@ -262,10 +317,15 @@ footer{
 		margin:0 auto;
 		display: flex;
 		justify-content: space-between;
-		background-color: red;
 		@media screen and (min-width:846px){
 			margin:0 0 0 auto;
 			width:119px;
+		}
+		.icon{
+			color:$darkGrayishBlue;
+			&:hover{
+				color:$strongCyan;
+			}
 		}
 	}
 }

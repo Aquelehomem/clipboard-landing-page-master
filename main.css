@@ -68,14 +68,19 @@ body {
     line-height: 1.7; }
     body header img {
       margin: 0 0 73px 0; }
-    @media screen and (min-width: 786px) {
-      body header h1 {
-        font-size: 38px; } }
+    body header h1 {
+      font-weight: 600;
+      font-size: 30px;
+      color: #4c545d; }
+      @media screen and (min-width: 786px) {
+        body header h1 {
+          font-size: 38px; } }
     body header p {
       max-width: 683px;
       display: block;
       margin: 0 auto;
-      font-size: 15px; }
+      font-size: 18px;
+      color: #9fabb2; }
     body header .buttons {
       width: 100%;
       max-width: 475px;
@@ -90,15 +95,28 @@ body {
         height: 55px;
         border-radius: 30px;
         font-size: 15px;
-        max-width: 229px; }
+        max-width: 229px;
+        cursor: pointer;
+        background: #6173ff;
+        border: none;
+        border-bottom-style: solid;
+        border-color: #5161DA;
+        border-width: 3.5px;
+        color: white; }
         @media screen and (min-width: 786px) {
           body header .buttons button {
             font-size: 16px; } }
       body header .buttons button:nth-of-type(1) {
-        margin: 0 0 24px 0; }
-    @media screen and (min-width: 786px) {
-      body header h2 {
-        font-size: 31px; } }
+        margin: 0 0 24px 0;
+        background: #26baa4;
+        border-color: #219F89; }
+    body header h2 {
+      font-weight: 600;
+      font-size: 30px;
+      color: #4c545d; }
+      @media screen and (min-width: 786px) {
+        body header h2 {
+          font-size: 31px; } }
   body main {
     max-width: 1440px;
     margin: 0 auto; }
@@ -127,9 +145,14 @@ body {
             max-width: 335px;
             text-align: left;
             padding: 71px 0 0 0; } }
+        body main .firstSection div.quickSearch h3 {
+          font-weight: 600;
+          font-size: 22px;
+          color: #4c545d; }
         body main .firstSection div.quickSearch p {
           font-size: 15px;
-          margin: 0 0 30px 0; }
+          margin: 0 0 30px 0;
+          color: #9fabb2; }
     body main .secondSection {
       text-align: center;
       padding: 196px 32px 143px 32px;
@@ -138,10 +161,16 @@ body {
         body main .secondSection {
           padding-top: 156px;
           padding-bottom: 179px; } }
+      body main .secondSection h2 {
+        font-weight: 600;
+        font-size: 30px;
+        color: #4c545d; }
       body main .secondSection p {
         display: block;
         max-width: 674px;
-        margin: 0 auto 70px auto; }
+        margin: 0 auto 70px auto;
+        font-size: 18px;
+        color: #9fabb2; }
         @media screen and (min-width: 836px) {
           body main .secondSection p {
             margin: 0 auto 120px auto; } }
@@ -154,6 +183,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    line-height: 1.5;
     justify-content: space-between; }
     @media screen and (min-width: 786px) {
       body .thirdSection {
@@ -161,20 +191,27 @@ body {
     body .thirdSection h2 {
       text-align: center;
       display: block;
-      margin: 0 auto; }
+      margin: 0 auto;
+      font-weight: 600;
+      font-size: 28px;
+      color: #4c545d; }
     body .thirdSection p {
       display: block;
-      margin: 0 auto; }
+      margin: 0 auto;
+      font-size: 18px;
+      color: #9fabb2; }
     body .thirdSection .div {
       margin: 97px auto 0 auto;
       max-width: 336px;
       min-width: 300px;
-      background: pink;
       text-align: center; }
       body .thirdSection .div img {
-        margin: 0 0 46px 0; }
+        margin: 0 0 20px 0; }
       body .thirdSection .div h3 {
-        margin: 0 0 49px 0; }
+        margin: 0 0 20px 0;
+        font-weight: 600;
+        font-size: 25px;
+        color: #4c545d; }
     body .thirdSection .logo {
       margin: 135px auto 0 auto;
       width: 145px;
@@ -191,16 +228,21 @@ body {
         max-width: 165px;
         width: 165px; }
   body .lastSection {
-    background-color: red;
     text-align: center;
-    padding: 0 32px 172px 32px; }
+    padding: 0 32px 172px 32px;
+    line-height: 1.5; }
     @media screen and (min-width: 786px) {
       body .lastSection {
         padding-bottom: 152px; } }
     body .lastSection h2 {
-      margin: 0 0 34px 0; }
+      margin: 0 0 34px 0;
+      font-weight: 600;
+      font-size: 25px;
+      color: #4c545d; }
     body .lastSection p {
-      margin: 0 0 50px 0; }
+      margin: 0 0 50px 0;
+      color: #9fabb2;
+      font-size: 18px; }
     body .lastSection .buttons {
       width: 100%;
       max-width: 475px;
@@ -215,12 +257,21 @@ body {
         height: 55px;
         border-radius: 30px;
         font-size: 15px;
-        max-width: 229px; }
+        max-width: 229px;
+        cursor: pointer;
+        background: #6173ff;
+        border: none;
+        border-bottom-style: solid;
+        border-color: #5161DA;
+        border-width: 3.5px;
+        color: white; }
         @media screen and (min-width: 786px) {
           body .lastSection .buttons button {
             font-size: 16px; } }
       body .lastSection .buttons button:nth-of-type(1) {
-        margin: 0 0 24px 0; }
+        margin: 0 0 24px 0;
+        background: #26baa4;
+        border-color: #219F89; }
 
 footer {
   max-width: 1440px;
@@ -248,35 +299,41 @@ footer {
         display: grid;
         grid-template-columns: repeat(3, minmax(auto, 100px));
         grid-column-gap: 40px;
+        grid-row-gap: 20px;
         grid-row: 28px;
         margin: 0; } }
     footer ul li {
-      margin: 0 0 40px 0; }
+      margin: 0 0 40px 0;
+      cursor: pointer;
+      color: #4c545d;
+      font-weight: 300; }
       @media screen and (min-width: 846px) {
         footer ul li {
           margin: 0;
           width: 118px;
-          text-align: left;
-          background: red; } }
+          text-align: left; }
+          footer ul li:hover {
+            color: #26baa4; } }
     @media screen and (min-width: 846px) {
       footer ul li:nth-of-type(3) {
-        background: orange;
         grid-column: 2/3;
         grid-row: 1/2; } }
     @media screen and (min-width: 846px) {
       footer ul li:nth-of-type(5) {
-        background: purple;
         grid-column: 3/4;
         grid-row: 1/2; } }
   footer div {
     width: 153px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    background-color: red; }
+    justify-content: space-between; }
     @media screen and (min-width: 846px) {
       footer div {
         margin: 0 0 0 auto;
         width: 119px; } }
+    footer div .icon {
+      color: #4c545d; }
+      footer div .icon:hover {
+        color: #26baa4; }
 
 /*# sourceMappingURL=main.css.map */
